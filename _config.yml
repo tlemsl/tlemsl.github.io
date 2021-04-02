@@ -1,62 +1,53 @@
-title: 김민종의 블로그
-author: tlemsl
-email: tlemsl@github.io
-description: > # this means to ignore newlines until "show_exerpts:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-show_excerpts: true # set to true to show excerpts on the homepage
-url: https://tlemsl.github.io
-baseurl: ""
-# Minima date format
-# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
-sass:
-  sass_dir: _sass
-plainwhite:
-  name: 김민종
-  tagline: Developer. Engineer
-  date_format: "%b %-d, %Y"
-  sitemap: true # set to true to generate sitemap.xml content
-  search: true # set to true to enable searchbar
-  dark_mode: true # set to true to add dark mode toggle
-  portfolio_image: "assets/portfolio.png" # the path from the base directory of the site to the image to display (no / at the start)
-  html_lang: "en" # set the lang attribute of the <html> tag for the pages. See here for a list of codes: https://www.w3schools.com/tags/ref_country_codes.asp
-  condensed_mobile:
-    #- home
-    - page
-    - post
-  # generate social links in footer
-  social_links:
-    #twitter: samarsault
-    github:  tlemsl
-    #linkedIn: in/samarsault
-    #rss: rss
-    #dribbble: jekyll
-    #flickr:   jekyll
-    #instagram: jekyll
-    #pinterest: jekyll
-    #youtube: jekyll
-    #facebook: jekyll
-    #soundcloud: jekyll
-    #telegram: jekyll
-    #gitlab: jekyll
-    #email: jekyll
+title: The anecdotes
+description: Flexton is a responsive and ultra-minimal theme for Jekyll.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://tlemsl.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 
-    # Mastodon instances
-    # mastodon:
-    # - username: jekyll
-    #   instance: example.com
-    # - username: jekyll2
-    #   instance: example.com
+# Author
+author-name:    minjong kim
+author-image:   1.jpg
+author-job:     robot engineer
+author-email:   tlemsl@dgist.ac.kr # Add your email for contant form.
+author-twitter: # Add your twitter account
+about-author:   I am a web developer focusing on front-end development. Always hungry to keep learning.
 
-# If you want to link only specific pages in your header, uncomment
-# this and add the path to the pages in order as they should show up
-#header_pages:
-# - about.md
+# Social settings
+social-twitter:
+social-facebook:
+social-github:    tlemsl
+social-pinterest:
+social-instagram:
+social-youtube:
+social-vk:
+social-linkedin:
+
+# Newsletter
+mailchimp: # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
+
+# Google Analytics
+google-analytics: # Add your identifier. For example UA-99631805-1
+
+# Comment Section (Disqus)
+disqus-identifier: mr-brown # Add your shortname for Disqus Comment. For example mr-brown
 
 # Build settings
-theme: plainwhite
-
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
 plugins:
-  - jekyll-seo-tag
-#  - jekyll-feed
+  - jekyll-paginate
+
+paginate: 7
+paginate_path: "/page/:num/"
+
+include:
+  - _pages
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Exclude from processing.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
