@@ -1,22 +1,22 @@
-title: Welcome to mj
-description: Flexton is a responsive and ultra-minimal theme for Jekyll.
+title: The Anecdotes
+description: Anecdotes of what I did
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://tlemsl.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Author
 author-name:    Minjong Kim
-author-image:   1.jpg
-author-job:     Developer
+author-image:   profile.jpg
+author-job:     Robot Engineer
 author-email:   your-email@domain.com # Add your email for contant form.
 author-twitter: artemsheludko_ # Add your twitter account
-about-author:   I am a web developer focusing on front-end development. Always hungry to keep learning.
+about-author:   I am a Robot Engineer
 
 # Social settings
-social-twitter:   artemsheludko_
+social-twitter:
 social-facebook:
-social-github:    artemsheludko
-social-pinterest: artemsheludko
-social-instagram: artemsheludko_
+social-github:    tlemsl
+social-pinterest:
+social-instagram:
 social-youtube:
 social-vk:
 social-linkedin:
