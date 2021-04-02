@@ -1,53 +1,22 @@
-title: The Anecdotes
-description: Anecdotes of what I did
+title: The anecdotes
+description: > # this means to ignore newlines until "baseurl:"
+  Blog with theme Future Imperfect<br>
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://tlemsl.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://tlemsl.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 
-# Author
-author-name:    Minjong Kim
-author-image:   profile.jpg
-author-job:     Robot Engineer
-author-email:   your-email@domain.com # Add your email for contant form.
-author-twitter: # Add your twitter account
-about-author:   I am a Robot Engineer
 
-# Social settings
-social-twitter:
-social-facebook:
-social-github:    tlemsl
-social-pinterest:
-social-instagram:
-social-youtube:
-social-vk:
-social-linkedin:
-
-# Newsletter
-mailchimp: # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
-
-# Google Analytics
-google-analytics: # Add your identifier. For example UA-99631805-1
-
-# Comment Section (Disqus)
-disqus-identifier: mr-brown # Add your shortname for Disqus Comment. For example mr-brown
+author:
+  name: 'minjong'
+  last_name: 'kim'
+  cv:
+  avatar: '/images/avatar.jpeg'
+  github_username:  tlemsl
+  email: tlemsl@dgist.ac.kr
+  vk_id:
+  telegram_name:
+  logo: '/images/logo.svg'
 
 # Build settings
 markdown: kramdown
-permalink: /:year/:month/:day/:title/
-plugins:
-  - jekyll-paginate
 
-paginate: 7
-paginate_path: "/page/:num/"
-
-include:
-  - _pages
-
-sass:
-  sass_dir: _sass
-  style: compressed
-
-# Exclude from processing.
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - vendor
+permalink: /:categories/:year/:title.html
