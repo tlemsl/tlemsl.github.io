@@ -1,4 +1,5 @@
 title: The anecdotes
+<<<<<<< HEAD
 description: Flexton is a responsive and ultra-minimal theme for Jekyll.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://tlemsl.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
@@ -51,3 +52,26 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+=======
+description: > # this means to ignore newlines until "baseurl:"
+  Blog with theme Future Imperfect<br>
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://tlemsl.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+
+
+author:
+  name: 'minjong'
+  last_name: 'kim'
+  cv:
+  avatar: '/images/avatar.jpeg'
+  github_username:  tlemsl
+  email: tlemsl@dgist.ac.kr
+  vk_id:
+  telegram_name:
+  logo: '/images/logo.svg'
+
+# Build settings
+markdown: kramdown
+
+permalink: /:categories/:year/:title.html
+>>>>>>> 54d14ccba8bf117bd60f342c1e6b92126fb8e1dd
