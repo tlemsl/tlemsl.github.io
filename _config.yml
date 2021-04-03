@@ -1,21 +1,21 @@
 title: The anecdotes
-description: Flexton is a responsive and ultra-minimal theme for Jekyll.
+description: The Anecdotes of mj
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://tlemsl.github.io/ # the base hostname & protocol for your site, e.g. http://example.com
 
 # Author
 author-name:    Min jong Kim
-author-image:   1.jpg
+author-image:   profile.jpg
 author-job:     Robot Engineer
-author-email:   tlemsl@dgist.ac.kr# Add your email for contant form.
+author-email:   tlemsl@dgist.ac.kr # Add your email for contant form.
 author-twitter: # Add your twitter account
 about-author:   Robot Engineer
 
 # Social settings
 social-twitter:
 social-facebook:
-social-github:    artemsheludko
-social-pinterest: tlemsl
+social-github:    tlemsl
+social-pinterest:
 social-instagram:
 social-youtube:
 social-vk:
