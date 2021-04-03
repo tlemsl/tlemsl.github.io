@@ -1,23 +1,22 @@
-title: The anecdotes
-<<<<<<< HEAD
+title: Welcome to Flexton
 description: Flexton is a responsive and ultra-minimal theme for Jekyll.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://tlemsl.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+url: https://tlemsl.github.io/ # the base hostname & protocol for your site, e.g. http://example.com
 
 # Author
-author-name:    minjong kim
+author-name:    Clayton Hanson
 author-image:   1.jpg
-author-job:     robot engineer
-author-email:   tlemsl@dgist.ac.kr # Add your email for contant form.
-author-twitter: # Add your twitter account
+author-job:     Web Developer
+author-email:   your-email@domain.com # Add your email for contant form.
+author-twitter: artemsheludko_ # Add your twitter account
 about-author:   I am a web developer focusing on front-end development. Always hungry to keep learning.
 
 # Social settings
-social-twitter:
+social-twitter:   artemsheludko_
 social-facebook:
-social-github:    tlemsl
-social-pinterest:
-social-instagram:
+social-github:    artemsheludko
+social-pinterest: artemsheludko
+social-instagram: artemsheludko_
 social-youtube:
 social-vk:
 social-linkedin:
@@ -52,26 +51,3 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
-=======
-description: > # this means to ignore newlines until "baseurl:"
-  Blog with theme Future Imperfect<br>
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://tlemsl.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-
-
-author:
-  name: 'minjong'
-  last_name: 'kim'
-  cv:
-  avatar: '/images/avatar.jpeg'
-  github_username:  tlemsl
-  email: tlemsl@dgist.ac.kr
-  vk_id:
-  telegram_name:
-  logo: '/images/logo.svg'
-
-# Build settings
-markdown: kramdown
-
-permalink: /:categories/:year/:title.html
->>>>>>> 54d14ccba8bf117bd60f342c1e6b92126fb8e1dd
