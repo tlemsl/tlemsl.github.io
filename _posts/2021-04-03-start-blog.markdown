@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Start Blog"
+title: Start Blog
 date: 2021-04-03 14:50:00 +0900
 image: profile.jpg
 tags: [blog, github]

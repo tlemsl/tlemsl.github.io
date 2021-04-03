@@ -1,7 +1,7 @@
 title: The anecdotes
 description: The Anecdotes of mj
 baseurl: "" # the subpath of your site, e.g. /blog
-url: https://tlemsl.github.io/ # the base hostname & protocol for your site, e.g. http://example.com
+url: "tlemsl.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Author
 author-name:    Min jong Kim
