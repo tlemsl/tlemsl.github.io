@@ -3,7 +3,7 @@ layout: post
 title: Start Blog
 date: 2021-04-04T02:50:00+09:00
 author: Anec
-categories: rest
+categories: blog
 tags: blog
 cover: "assets/profile.jpg"
 ---
